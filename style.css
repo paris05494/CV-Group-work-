@@ -13,18 +13,16 @@ td {
     padding: 8px;
     /* Reduce padding for smaller screens */
     text-align: left;
-    border: 1px solid #ddd;
-
+    border: 1px solid #ffffff;
 }
 
 h3 {
     text-align: center;
-
 }
 
 /* Menu section */
 .menu {
-    background-color: #000;
+    background-color: #333;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -32,28 +30,30 @@ h3 {
 }
 
 .menu a {
-    color: #fff;
+    color: #ffffff;
     padding: 10px 30px;
-    text-decoration: none;
     display: block;
+    text-decoration: none;
 
 }
-
-
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #444242;
+    padding: 10px;
+    background-color: #f4f4f4;
+    box-sizing: box;
 
 }
 
 .team-member {
     background-color: #fff;
+
     margin-bottom: 20px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
@@ -63,7 +63,6 @@ h3 {
     height: auto;
 }
 
-/*mobile*/
 @media screen and (max-width: 767px) {
     .team-member img {
         width: 256px;
@@ -80,35 +79,40 @@ h3 {
         width: 150px;
         height: auto;
         margin-right: 20px;
-
     }
 
-    .team-member .info {}
+    .team-member .info {
+        flex: 1;
+    }
 }
-
 
 .comment-section {
-    color: #ddd;
-    display: block;
-    margin-top: 40px;
-
+    width: 100%;
 }
 
+
 .comment {
-    padding: 50px 30px 30px 10px;
+    margin-top: 40px;
     margin-bottom: 30px;
-    background-color: #343334;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: #333;
+    word-wrap: break-word;
 }
 
 .author {
+    border: 1px solid white;
     font-weight: bold;
 }
 
 .date {
-    margin-left: 10px;
+    padding-left: 5px;
     font-style: italic;
-    font-weight: bold;
-    color: #777677;
+    color: gray;
+
 }
 
 /* CSS for making the comment form responsive */
@@ -145,7 +149,6 @@ h3 {
     /* Add padding to buttons */
     box-sizing: border-box;
     /* Include padding in width */
-
 }
 
 .comment-form input[type="reset"] {
