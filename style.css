@@ -62,7 +62,7 @@ max-width: 100%;
 height: auto;
 }
 
-//mobile
+/*mobile*/
 @media screen and (max-width: 767px) {
     .team-member img {
 width: 256px;
