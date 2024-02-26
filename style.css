@@ -23,7 +23,7 @@ h3 {
 
 /* Menu section */
 .menu {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -44,8 +44,8 @@ display: block;
 max-width: 1200px;
 margin: 0 auto;
 padding: 20px;
-box-sizing: box;
-background-color: #f4f4f4;
+box-sizing: border-box;
+background-color: #444242;
     
 }
 
