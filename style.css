@@ -179,3 +179,18 @@ table {
   display: flex;
   justify-content: center;
 }
+
+.video_presentation,
+  .video_demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+  .video_presentation,
+  .video_demo p1{
+    font-size: larger;
+    font-weight: bold; 
+  }
